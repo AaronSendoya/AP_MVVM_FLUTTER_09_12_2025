@@ -1,4 +1,5 @@
-import 'package:practica_flutter/models/pelicula.model.dart';
+import '../models/pelicula.model.dart';
+
 class PeliculaService {
   Future<List<Pelicula>> fetchPeliculas() async {
     // Simula una llamada a una API o base de datos
